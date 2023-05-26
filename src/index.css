@@ -1,11 +1,11 @@
 .gradientBg {
   background: rgb(14, 13, 15);
-  background: linear-gradient(45deg, rgb(11, 10, 12) 0%, rgb(4, 16, 43) 100%);
+  background: linear-gradient(45deg, rgb(11, 10, 12) 0%, rgb(7, 4, 43) 100%);
 }
 
 .gradientBg2 {
   background: rgb(14, 13, 15);
-  background: linear-gradient(90deg, rgb(11, 10, 12) 0%, rgb(4, 16, 43) 100%);
+  background: linear-gradient(38deg, rgb(11, 10, 12) 0%, rgb(7, 1, 87) 100%);
 }
 
 .footerGradien {
@@ -19,4 +19,30 @@
 
 * {
     transition: all .5s ease-in-out;
+}
+
+.customBg {
+  background-color: black;
+  background-image: url("./bg-color.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@keyframes bgrotation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.rotatebg {
+  color: black;
+}
+.rotatebg:hover {
+  animation: bgrotation 1s infinite linear;
 }

@@ -5,7 +5,8 @@ import ContactBtns from "./ContactBtns";
 function Hero() {
   return (
     <div className="container px-2 mx-auto grid grid-cols-6 gap-4">
-      <div className=" gradientBg flex flex-col justify-between text-white p-6 rounded-lg col-span-4">
+      <div className="  flex flex-col justify-between relative text-white p-6 rounded-lg col-span-4 overflow-hidden">
+        <img src="./bg-color.svg" className="absolute top-0 left-0 -z-10 rotatebg " />
         <div className="max-w-[500px]">
           <h2 className="text-3xl font-semibold">
             Hello, I'm Yusuf, a Frontend Developer with 3 years of experience.
