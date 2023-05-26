@@ -1,0 +1,22 @@
+.gradientBg {
+  background: rgb(14, 13, 15);
+  background: linear-gradient(45deg, rgb(11, 10, 12) 0%, rgb(4, 16, 43) 100%);
+}
+
+.gradientBg2 {
+  background: rgb(14, 13, 15);
+  background: linear-gradient(90deg, rgb(11, 10, 12) 0%, rgb(4, 16, 43) 100%);
+}
+
+.footerGradien {
+  background: rgb(65, 85, 9);
+  background: linear-gradient(
+    45deg,
+    rgba(65, 85, 9, 1) 0%,
+    rgba(27, 33, 47, 1) 100%
+  );
+}
+
+* {
+    transition: all .5s ease-in-out;
+}
