@@ -6,13 +6,16 @@ import { FaAngellist } from 'react-icons/fa'
 
 function ContactBtns() {
   return (
-    <div className="flex items-center gap-4 cnt-btn">
-      <button
-        className="py-2 px-8 pb-3 rounded-full bg-black text-white font-bold hover:bg-[#00000090] "
-        type="button"
-      >
-        Contact me
-      </button>
+    <div className="flex items-center gap-4">
+      <a href="mailto:youssef.oubaari@gmail.com">
+        <button
+          className="py-2 px-8 pb-3 rounded-full bg-black text-white font-bold hover:bg-[#00000090] "
+          type="button"
+          
+        >
+          Contact me
+        </button>
+      </a>
       <div className="p-3 rounded-full bg-white text-black font-bold hover:bg-black hover:text-white">
         <AiFillGithub size={20}/>
       </div>

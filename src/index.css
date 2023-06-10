@@ -17,11 +17,7 @@
   );
 }
 
-.cnt-btn {
-  transition: all 0s ease;
-}
-
-* {
+#projects {
     transition: all .5s ease-in-out;
 }
 

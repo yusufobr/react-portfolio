@@ -9,7 +9,7 @@ function Project(props) {
       <div
         className={`flex flex-col justify-between bg-[${
           bg ? bg : "black"
-        }] gap-4 p-6 pb-0 hover:scale-[103%] h-full`}
+        }] gap-4 p-6 pb-0 hover:scale-[103%] h-full transition ease-in-out duration-1000`}
       >
         <div className="flex justify-between items-center">
           <div>
