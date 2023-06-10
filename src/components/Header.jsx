@@ -7,9 +7,9 @@ function Header() {
         <div>
             <nav className='font-bold text-[#04102b]'>
                 <ul className='flex gap-3'>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#projects'>Projects</a></li>
+                    <li><a href='#contact'>Contact</a></li>
                 </ul>
             </nav>
         </div>
