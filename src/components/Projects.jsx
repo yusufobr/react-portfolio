@@ -4,7 +4,7 @@ import Project from "./Project";
 
 function Projects() {
   return (
-    <div id="projects" className="container px-2 mx-auto grid grid-cols-2 gap-4">
+    <div id="projects" className="container max-w-screen-xl px-4 mx-auto grid grid-cols-2 gap-4">
       {data.map((item) => (
         <Project
           title={item.title}
