@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div className='container px-2 py-4 mx-auto flex justify-between'>
-        <div className='font-extrabold text-xl'>LOGO</div>
+        <div className='font-extrabold text-xl'>Yusuf Obr.</div>
         <div>
             <nav className='font-bold text-[#04102b]'>
                 <ul className='flex gap-3'>

@@ -17,6 +17,10 @@
   );
 }
 
+.cnt-btn {
+  transition: all 0s ease;
+}
+
 * {
     transition: all .5s ease-in-out;
 }
