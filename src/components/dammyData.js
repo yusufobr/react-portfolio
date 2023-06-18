@@ -22,12 +22,27 @@ const data = [
         live: "https://profound-cendol-db4de9.netlify.app/",
     },
     {
-        title: "Weather",
+        title: "Weather App",
         des: "Weather app to check the real-time weather.",
         img: "./pic2.png",
         bg: "#B56782",
         code: "https://github.com/yusufobr/weather-react",
         live: "https://magical-pithivier-03eaa5.netlify.app/",
+    },
+    {
+        title: "Manage",
+        des: "Attractive Responsive Landing Page using Tailwind Css",
+        img: "./pic6.png",
+        bg: "#242d52",
+        code: "https://github.com/yusufobr/manage-tailwindcss",
+        live: "https://yusufobr.github.io/manage-tailwindcss/",
+    },
+    {
+        title: "Soccer App",
+        des: "Provide information about the standings of different leagues.",
+        img: "./pic5.png",
+        code: "https://github.com/yusufobr/weather-react",
+        live: "https://soccer-live.netlify.app/",
     },
 ]
 
