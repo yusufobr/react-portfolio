@@ -5,7 +5,7 @@ import { BiWorld } from "react-icons/bi";
 function Project(props) {
   const { des, img, title, bg, live, code } = props;
   return (
-    <div className="overflow-hidden rounded-xl max-h-[400px]">
+    <div className="overflow-hidden h-full rounded-xl max-h-[400px]">
       <div
         className={`flex flex-col justify-between bg-[${
           bg ? bg : "black"
