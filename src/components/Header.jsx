@@ -5,7 +5,7 @@ function Header() {
     <div className='container max-w-screen-xl px-6 pt-4 mx-auto flex justify-between'>
         <div className='font-extrabold text-xl'>Yusuf Obr.</div>
         <div>
-            <nav className='font-bold text-[#04102b]'>
+            <nav className='hidden sm:block font-bold text-[#04102b]'>
                 <ul className='flex gap-3'>
                     <li><a href='#home'>Home</a></li>
                     <li><a href='#projects'>Projects</a></li>
