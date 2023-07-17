@@ -6,10 +6,10 @@ import { FaAngellist } from 'react-icons/fa'
 
 function ContactBtns() {
   return (
-    <div className="flex items-center mt-8 gap-4 flex-wrap sm:flex-start sm:flex-nowrap">
+    <div className="flex items-center mt-8 gap-4 z-10 flex-wrap sm:flex-start sm:flex-nowrap">
       <a href="mailto:youssef.oubaari@gmail.com" className="w-full sm:max-w-[150px]">
         <button
-          className="py-2 px-8 pb-3 rounded-full w-full bg-black text-white font-bold hover:bg-[#00000090] sm:w-auto"
+          className="py-2 px-8 pb-3 rounded-full w-full bg-black text-white font-bold hover:bg-[#d44414] sm:w-auto"
           type="button"
           
         >

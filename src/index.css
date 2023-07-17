@@ -5,7 +5,7 @@
 
 .gradientBg2 {
   background: rgb(14, 13, 15);
-  background: linear-gradient(38deg, rgb(11, 10, 12) 0%, rgb(7, 1, 87) 100%);
+  background: linear-gradient(38deg, rgb(11, 10, 12) 0%, rgb(5, 0, 66) 100%);
 }
 
 .footerGradien {
@@ -49,4 +49,21 @@
 
 .herobg {
   background-image: linear-gradient( -111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+}
+
+body {
+  position: relative;
+  max-width: 100vw;
+  background-color: #00064d;
+
+  
+}
+
+.big-ttl {
+  background: linear-gradient(-121.57deg, #d44414 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 16px;
 }
