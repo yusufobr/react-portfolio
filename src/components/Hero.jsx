@@ -1,25 +1,29 @@
 import React from "react";
 import img from "../assets/DSC_697.png";
 import ContactBtns from "./ContactBtns";
+import bg from '../assets/3afak.svg'
 
 function Hero() {
   return (
     <div id="home" className="container max-w-screen-xl px-4 mx-auto flex flex-wrap-reverse sm:grid sm:grid-cols-6 gap-4">
-      <div className="  flex flex-col gap-8 w-full justify-between herobg relative text-white p-6 rounded-xl col-span-4 overflow-hidden">
-        {/* <img src="./bg-color.svg" className="absolute top-0 left-0 -z-10 rotatebg " /> */}
-        <div className="max-w-[500px]">
-          <h2 className="text-3xl font-semibold">
-            Hello, I'm Yusuf, a Frontend Developer with 2 years of experience.
+      <div className=" relative flex flex-col gap-8 w-full justify-between herobg relative text-white p-6 rounded-xl col-span-4 overflow-hidden">
+        <img src={bg} className="absolute top-0 right-0 h-full opacity-10 p-1" />
+        <div className="max-w-[550px] mt-4 z-10 flex flex-col gap-8">
+          <p className="text-xl">
+            Hello,  I'm Yusuf.
+          </p>
+          <h2 className="text-5xl -mt-4 font-black big-ttl">
+            A Frontend Developer.
           </h2>
-          <p className="mt-10">
-            I care a lot about using design for positive impact. and enjoy
-            creating user-centric, delightful, and human experiences.
+          <p className="text-xl">
+          I like to craft solid and scalable frontend products with great user experiences.
           </p>
         </div>
         <ContactBtns />
       </div>
-      <div className="gradientBg2 overflow-hidden w-full flex justify-center sm:justify-end rounded-xl sm:col-span-2">
-        <img className="pl-4 pt-8 hover:scale-105" width={250} src={img} />
+      <div className="gradientBg2 relative overflow-hidden w-full flex justify-center sm:justify-end rounded-xl sm:col-span-2">
+        <img className="pl-4 pt-8 z-10 hover:scale-105" width={250} src={img} />
+        <img src={bg} className="absolute top-0 left-0 h-full rotate-180 opacity-10 p-1" />
       </div>
     </div>
   );
