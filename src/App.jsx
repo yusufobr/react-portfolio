@@ -4,7 +4,8 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
-import Background from './components/background'
+import Background from './components/Background'
+
 
 function App() {
   return (
