@@ -1,0 +1,17 @@
+.circle {
+    width: 90vw;
+    height: 90vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -40vw;
+    left: -40vw;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+
+
+    background: radial-gradient(circle, rgb(31, 18, 223) 0%, rgba(235, 66, 0, 0) 50%);
+
+    /* background: radial-gradient(600px at 554px 534px, rgba(221, 151, 20, 0.15), transparent 80%); */
+  
+  
+  }
