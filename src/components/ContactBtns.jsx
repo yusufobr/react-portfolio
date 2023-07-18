@@ -17,24 +17,24 @@ function ContactBtns() {
         </button>
       </a>
       <div className="flex justify-between w-full sm:justify-normal sm:gap-4">
-        <div className="p-3 rounded-full bg-white text-black font-bold hover:bg-black hover:text-white">
+        <div className="p-2 rounded-full bg-white text-black font-bold hover:bg-black hover:text-white">
           <a href="https://github.com/yusufobr" target="_blank">
-            <AiFillGithub size={20}/>
+            <AiFillGithub size={22}/>
           </a>
         </div>
-        <div className="p-3 rounded-full bg-white text-black font-bold hover:bg-[#0072b1] hover:text-white">
+        <div className="p-2 rounded-full bg-white text-black font-bold hover:bg-[#0072b1] hover:text-white">
           <a href="https://www.linkedin.com/in/youssef-oubari/" target="_blank">
-            <FaLinkedinIn size={20} />
+            <FaLinkedinIn size={22} />
           </a>
         </div>
-        <div className="p-3 rounded-full bg-white text-black font-bold hover:bg-[#E4405F] hover:text-white">
+        <div className="p-2 rounded-full bg-white text-black font-bold hover:bg-[#E4405F] hover:text-white">
           <a href="https://www.instagram.com/yusuf.obr/" target="_blank">
-            <AiFillInstagram size={20} />
+            <AiFillInstagram size={22} />
           </a>
         </div>
-        <div className="p-3 rounded-full bg-white text-black font-bold hover:bg-[#EC2E3A] hover:text-white">
+        <div className="p-2 rounded-full bg-white text-black font-bold hover:bg-[#EC2E3A] hover:text-white">
           <a href="https://wellfound.com/u/youssef-oubari" target="_blank">
-            <FaAngellist size={20} />
+            <FaAngellist size={22} />
           </a>
         </div>
       </div>

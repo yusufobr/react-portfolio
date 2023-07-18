@@ -12,31 +12,33 @@ function Project(props) {
         }] gap-4 p-6 pb-0 hover:scale-[103%] h-full transition ease-in-out duration-1000`}
       >
         <div className="flex justify-between items-center">
-          <div>
-            <span className="text-xl font-semibold text-white capitalize">
-              {title}
-            </span>
-            <p className="text-gray-300">{des}</p>
-          </div>
-          <div className="flex gap-2 flex-wrap justify-end">
-            {code ? (
-              <div className="p-2 rounded-full bg-white text-black hover:bg-gray-300">
-                <a target="_blank" href={code}>
-                  <AiFillGithub size={25} />
-                </a>
+          <div className="w-full">
+            <div className="flex justify-between">
+              <span className="text-xl font-semibold text-white capitalize">
+                {title}
+              </span>
+              <div className="flex gap-2 flex-wrap justify-end">
+                {code ? (
+                  <div className="p-1 rounded-full bg-white text-black hover:bg-black hover:text-white">
+                    <a target="_blank" href={code}>
+                      <AiFillGithub size={20} />
+                    </a>
+                  </div>
+                ) : (
+                  ""
+                )}
+                {live ? (
+                  <div className="p-1 rounded-full bg-white text-black hover:bg-black hover:text-white">
+                    <a target="_blank" href={live}>
+                      <BiWorld size={20} />
+                    </a>
+                  </div>
+                ) : (
+                  ""
+                )}
               </div>
-            ) : (
-              ""
-            )}
-            {live ? (
-              <div className="p-2 rounded-full bg-white text-black hover:bg-gray-300">
-                <a target="_blank" href={live}>
-                  <BiWorld size={25} />
-                </a>
-              </div>
-            ) : (
-              ""
-            )}
+            </div>
+            <p className="text-gray-300 w-[85%]">{des}</p>
           </div>
         </div>
         <div className="flex flex-col items-center">

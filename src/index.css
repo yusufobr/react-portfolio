@@ -54,7 +54,12 @@
 body {
   position: relative;
   max-width: 100vw;
-  background-color: #00064d;
+  /* background-color: #00064d; */
+  background-color: black;
+  background-image: url(./bg-color.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   
 }

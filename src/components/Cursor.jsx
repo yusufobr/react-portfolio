@@ -19,7 +19,7 @@ function Cursor() {
   }, []);
 
   return (
-    <div className="w-full h-full fixed -z-10">
+    <div className="hidden md:block w-full h-full fixed -z-10">
       <motion.div
         animate={{ x: cord.x, y: cord.y }}
         className="circle"

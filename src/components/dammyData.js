@@ -4,14 +4,16 @@ const data = [
         des: "Spotify musical track website.",
         img: "./pic3.png",
         bg: "#0E1217",
+        technologies: ["Tailwind", "Javascript", "Html"],
         code: "https://github.com/yusufobr/Spotify-API-Javascript-Capstone",
         live: "https://dancing-narwhal-576108.netlify.app/",
     },
     {
-        title: "Agaplex SA",
-        des: "Moroccan foundry E-Commerce website",
-        img: "./pic4.png",
-        live: "https://www.agaplex.com/",
+        title: "Diseny Plus 2.0 ",
+        des: "Display Trending Movies & TV Shows",
+        img: "./pic7.jpg",
+        code: "https://github.com/yusufobr/diseny-plus",
+        live: "https://disenyplus.netlify.app/",
     },
     {
         title: "Crypto's",
@@ -22,12 +24,26 @@ const data = [
         live: "https://profound-cendol-db4de9.netlify.app/",
     },
     {
+        title: "Agaplex SA",
+        des: "Moroccan Foundry E-Commerce Website.",
+        img: "./pic4.png",
+        technologies: ["Tailwind", "Javascript", "Html"],
+        live: "https://www.agaplex.com/",
+    },
+    {
         title: "Weather App",
         des: "Weather app to check the real-time weather.",
         img: "./pic2.png",
         bg: "#B56782",
         code: "https://github.com/yusufobr/weather-react",
         live: "https://magical-pithivier-03eaa5.netlify.app/",
+    },
+    {
+        title: "Soccer App",
+        des: "Provide information about the standings of different leagues.",
+        img: "./pic5.png",
+        code: "https://github.com/yusufobr/weather-react",
+        live: "https://soccer-live.netlify.app/",
     },
     {
         title: "Manage",
@@ -38,12 +54,13 @@ const data = [
         live: "https://yusufobr.github.io/manage-tailwindcss/",
     },
     {
-        title: "Soccer App",
-        des: "Provide information about the standings of different leagues.",
-        img: "./pic5.png",
-        code: "https://github.com/yusufobr/weather-react",
-        live: "https://soccer-live.netlify.app/",
+        title: "Leaderboard",
+        des: "A leaderboard app to truck Scores",
+        img: "./pic8.jpg",
+        bg: "#202020",
+        code: "https://github.com/yusufobr/Leaderboard",
+        live: "https://polite-chebakia-a51660.netlify.app/",
     },
-]
+];
 
 export default data;
