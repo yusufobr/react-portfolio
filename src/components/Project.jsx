@@ -3,9 +3,9 @@ import { AiFillGithub } from "react-icons/ai";
 import { BiWorld } from "react-icons/bi";
 
 function Project(props) {
-  const { des, img, title, bg, live, code } = props;
+  const { des, img, title, bg, live, code, technologies } = props;
   return (
-    <div className="overflow-hidden h-full rounded-xl max-h-[400px] border-2 border-transparent hover:border-white">
+    <div className="overflow-hidden relative group h-full rounded-xl max-h-[400px] border-2 border-transparent hover:border-white">
       <div
         className={`flex flex-col justify-between bg-[${
           bg ? bg : "black"
@@ -43,6 +43,17 @@ function Project(props) {
         </div>
         <div className="flex flex-col items-center">
           <img className="max-h-[500px]" alt={title} src={img} />
+        </div>
+      </div>
+      <div className="hidden rounded-lg group-hover:block w-full absolute bottom-0 left-0 bg-[#ffffff10]">
+        <div className="flex flex-wrap gap-2 p-2 text-xs">
+          {technologies
+            ? technologies.map((tech) => (
+                <span className="bg-black p-1 px-2 text-white rounded-md">
+                  {tech}
+                </span>
+              ))
+            : ""}
         </div>
       </div>
     </div>

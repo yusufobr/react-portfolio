@@ -14,6 +14,7 @@ function Projects() {
           <Project
             title={item.title}
             des={item.des}
+            technologies={item.technologies}
             img={item.img}
             bg={item.bg}
             live={item.live}
