@@ -3,17 +3,18 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaAngellist } from 'react-icons/fa'
+import VCardButton from "./VCardButton";
 
 function ContactBtns() {
   return (
     <div className="flex items-center mt-8 gap-4 z-10 flex-wrap sm:flex-start sm:flex-nowrap">
-      <a href="mailto:youssef.oubaari@gmail.com" className="w-full sm:max-w-[150px]">
+      <a className="w-full sm:max-w-[150px]">
         <button
           className="py-2 px-8 pb-3 rounded-full w-full bg-black text-white font-bold hover:bg-[#d44414] sm:w-auto"
           type="button"
           
         >
-          Contact me
+          <VCardButton />
         </button>
       </a>
       <div className="flex justify-between w-full sm:justify-normal sm:gap-4">
