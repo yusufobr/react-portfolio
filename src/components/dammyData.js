@@ -42,6 +42,14 @@ const data = [
         live: "https://magical-pithivier-03eaa5.netlify.app/",
     },
     {
+        title: "Plate App",
+        des: "Mobile App to order food.",
+        img: "./pic10.png",
+        technologies: ["React", "Redux", "Tailwind"],
+        bg: "#141216",
+        live: "https://incredible-macaron-e74db4.netlify.app/",
+    },
+    {
         title: "Soccer App",
         des: "Provide information about the standings of different leagues.",
         img: "./pic5.png",
