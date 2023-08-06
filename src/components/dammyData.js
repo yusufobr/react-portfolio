@@ -1,5 +1,14 @@
 const data = [
-    {
+
+
+{
+        title: "Plate App",
+        des: "Mobile App to order food.",
+        img: "./pic10.png",
+        technologies: ["React", "Redux", "Tailwind"],
+        bg: "#141216",
+        live: "https://incredible-macaron-e74db4.netlify.app/",
+    },    {
         title: "Spotify",
         des: "Spotify musical track website.",
         img: "./pic3.png",
@@ -40,14 +49,6 @@ const data = [
         bg: "#B56782",
         code: "https://github.com/yusufobr/weather-react",
         live: "https://magical-pithivier-03eaa5.netlify.app/",
-    },
-    {
-        title: "Plate App",
-        des: "Mobile App to order food.",
-        img: "./pic10.png",
-        technologies: ["React", "Redux", "Tailwind"],
-        bg: "#141216",
-        live: "https://incredible-macaron-e74db4.netlify.app/",
     },
     {
         title: "Soccer App",
