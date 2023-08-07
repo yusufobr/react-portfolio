@@ -76,15 +76,15 @@ const data = [
         code: "https://github.com/yusufobr/ios",
         live: "https://yusufobr.github.io/ios/",
     },
-    {
-        title: "Leaderboard",
-        des: "A leaderboard app to track Scores",
-        img: "./pic8.jpg",
-        technologies: ["Html", "Tailwind", "Javascript"],
-        bg: "#1c0036",
-        code: "https://github.com/yusufobr/Leaderboard",
-        live: "https://polite-chebakia-a51660.netlify.app/",
-    },
+    // {
+    //     title: "Leaderboard",
+    //     des: "A leaderboard app to track Scores",
+    //     img: "./pic8.jpg",
+    //     technologies: ["Html", "Tailwind", "Javascript"],
+    //     bg: "#1c0036",
+    //     code: "https://github.com/yusufobr/Leaderboard",
+    //     live: "https://polite-chebakia-a51660.netlify.app/",
+    // },
 ];
 
 export default data;
