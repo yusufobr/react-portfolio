@@ -9,7 +9,7 @@ function Projects() {
       id="projects"
       className="container max-w-screen-xl px-4 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
     >
-      <Fade cascade>
+      <Fade cascade duration={700} triggerOnce={true}>
         {data.map((item) => (
           <Project
             title={item.title}
