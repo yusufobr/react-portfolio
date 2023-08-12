@@ -10,7 +10,7 @@ const data = [
         live: "https://incredible-macaron-e74db4.netlify.app/",
     },    {
         title: "Spotify",
-        des: "Spotify musical track website.",
+        des: "Your Hub for Music Tracks and Tunes.",
         img: "./pic3.png",
         bg: "#0E1217",
         technologies: ["Javascript", "Tailwind", "Shazam Api", "Html"],
