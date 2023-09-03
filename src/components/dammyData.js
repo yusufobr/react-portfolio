@@ -32,7 +32,7 @@ const data = [
         technologies: ["React", "Redux", "Tailwind", "ReChart.js"],
         bg: "#161B19",
         code: "https://github.com/yusufobr/crypto-data",
-        live: "https://profound-cendol-db4de9.netlify.app/",
+        live: "https://cryptoscoin.netlify.app/",
     },
     {
         title: "Agaplex SA",
