@@ -75,6 +75,15 @@ const data = [
     live: "https://yusufobr.github.io/manage-tailwindcss/",
   },
   {
+    title: "EX-INVESTOR",
+    des: "Amateur investors seeking to gain inspiration and motivation from the success stories of seasoned investors.",
+    img: "./pic12.png",
+    technologies: ["Html", "Tailwind", "Javascript"],
+    bg: "#EC5242",
+    code: "https://github.com/yusufobr/conference-capstone",
+    live: "https://yusufobr.github.io/conference-capstone/",
+  },
+  {
     title: "Wajibati",
     des: "Portfolio website to show Infos about the App.",
     img: "./pic9.png",
