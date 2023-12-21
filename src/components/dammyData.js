@@ -5,7 +5,7 @@ const data = [
     img: "./pic11.png",
     technologies: ["React", "Tailwind"],
     bg: "#28282B",
-    live: "https://lokap.co/",
+    live: "https://astonishing-crumble-af591e.netlify.app/",
   },
   {
     title: "Plate App",
