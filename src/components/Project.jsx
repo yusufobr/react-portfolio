@@ -19,7 +19,11 @@ function Project(props) {
               </span>
               <div className="flex gap-2 flex-wrap justify-end">
                 {code ? (
-                  <div className="p-1 rounded-full bg-white text-black hover:bg-black hover:text-white">
+                  <div
+                    className="p-1 rounded-full bg-white text-black cursor-pointer hover:bg-black hover:text-white"
+                    target="_blank"
+                    href={code}
+                  >
                     <a target="_blank" href={code}>
                       <AiFillGithub size={20} />
                     </a>

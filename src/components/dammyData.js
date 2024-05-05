@@ -1,11 +1,20 @@
 const data = [
   {
-    title: "Lokap 2.0",
-    des: "NFC business card startup.",
-    img: "./pic11.png",
-    technologies: ["React", "Tailwind"],
-    bg: "#28282B",
-    live: "https://astonishing-crumble-af591e.netlify.app/",
+    title: "Real Estate",
+    des: "A platform to browse through various real estate listings.",
+    img: "./pic13.png",
+    technologies: ["Mongoo", "Express", "React", "Node", "Typescript"],
+    bg: "#171700",
+    code: "https://github.com/yusufobr/mern-estate",
+    live: "https://mern-estate-1sq7.onrender.com/",
+  },
+  {
+    title: "Stripe Nike Store",
+    des: "Integrating Stripe Payment Gateway in an Eccomerce Website.",
+    img: "./pic15.png",
+    technologies: ["Stripe", "Node", "Express", "React", "Redux"],
+    bg: "#565a79",
+    code: "https://github.com/yusufobr/Stripe-Integration-Nike-Store",
   },
   {
     title: "Plate App",
@@ -23,6 +32,14 @@ const data = [
     technologies: ["Javascript", "Tailwind", "Shazam Api", "Html"],
     code: "https://github.com/yusufobr/Spotify-API-Javascript-Capstone",
     live: "https://dancing-narwhal-576108.netlify.app/",
+  },
+  {
+    title: "Lokap 2.0",
+    des: "NFC business card startup.",
+    img: "./pic11.png",
+    technologies: ["React", "Tailwind"],
+    bg: "#28282B",
+    live: "https://astonishing-crumble-af591e.netlify.app/",
   },
   {
     title: "Diseny Plus 2.0 ",
@@ -100,6 +117,14 @@ const data = [
     bg: "#1c0036",
     code: "https://github.com/yusufobr/Leaderboard",
     live: "https://polite-chebakia-a51660.netlify.app/",
+  },
+  {
+    title: "Landing Page",
+    des: "A responsive landing page using Tailwind Css.",
+    img: "./pic14.png",
+    technologies: ["Html", "Tailwind"],
+    bg: "#212b33",
+    live: "https://genuine-bienenstitch-107a1d.netlify.app/",
   },
 ];
 

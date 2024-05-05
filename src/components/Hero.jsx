@@ -8,15 +8,15 @@ function Hero() {
     <div id="home" className="container max-w-screen-xl px-4 mx-auto flex flex-wrap-reverse sm:grid sm:grid-cols-6 gap-4">
       <div className=" relative flex flex-col gap-8 w-full justify-between herobg relative text-white p-6 rounded-xl col-span-4 overflow-hidden">
         <img src={bg} className="absolute top-0 right-0 h-full opacity-10 p-1" />
-        <div className="max-w-[550px] mt-4 z-10 flex flex-col gap-8">
+        <div className="max-w-[600px] mt-4 z-10 flex flex-col gap-8">
           <p className="text-xl">
-            Hello,  I'm Yusuf.
+            Hello,  I'm Youssef.
           </p>
           <h2 className="text-5xl -mt-4 font-black big-ttl">
-            A Frontend Developer.
+            A Full-Stack Developer.
           </h2>
-          <p className="text-xl">
-          I like to craft solid and scalable frontend products with great user experiences.
+          <p className="text-xl max-w-[80%]">
+          Specializing in transforming ideas into web products for businesses and individuals.
           </p>
         </div>
         <ContactBtns />
