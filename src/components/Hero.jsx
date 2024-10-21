@@ -16,8 +16,17 @@ function Hero() {
             A Full-Stack Developer.
           </h2>
           <p className="text-xl max-w-[80%]">
-          Specializing in transforming ideas into web products for businesses and individuals.
+            Specializing in transforming ideas into web products for businesses and individuals.
           </p>
+          <a className="w-full sm:max-w-[150px]" href="https://docs.google.com/document/d/1OWPneOiD5Qyn5IcQusNDcjOjLWI5_rMEsEtlelWBwd8/edit?usp=sharing"
+            target="_blank">
+            <button
+              className="py-2 px-8 pb-3 rounded-full w-full btn-resume font-bold sm:w-auto"
+              type="button"
+            >
+              Resume
+            </button>
+          </a>
         </div>
         <ContactBtns />
       </div>
@@ -27,6 +36,6 @@ function Hero() {
       </div>
     </div>
   );
-} 
+}
 
 export default Hero;

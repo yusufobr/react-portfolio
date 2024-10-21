@@ -71,3 +71,11 @@ body {
   color: transparent;
   margin-bottom: 16px;
 }
+
+.btn-resume {
+  background: linear-gradient(-12.57deg, #d44414 18.77%, rgba(77, 77, 77, 0.66) 60.15%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
