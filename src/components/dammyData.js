@@ -42,6 +42,14 @@ const data = [
     live: "https://astonishing-crumble-af591e.netlify.app/",
   },
   {
+    title: "Chat-IO",
+    des: "Real Time Chat Application. It allows multiple users to join chat rooms and communicate with each other in real-time.",
+    img: "./pic16.png",
+    technologies: ["React", "Socket.io", "Node", "Express"],
+    bg: "#231200",
+    code: "https://github.com/yusufobr/chat-io/",
+  },
+  {
     title: "Diseny Plus 2.0 ",
     des: "Display Trending Movies & TV Shows",
     img: "./pic7.jpg",
