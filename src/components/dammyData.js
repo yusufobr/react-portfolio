@@ -17,6 +17,14 @@ const data = [
     code: "https://github.com/yusufobr/Stripe-Integration-Nike-Store",
   },
   {
+    title: "telegram-bot",
+    des: "This is an Amazigh language bot for Telegram.",
+    img: "./pic17.png",
+    technologies: ["python"],
+    code: "https://github.com/yusufobr/telegram-bot",
+    live: "https://t.me/amazigh_bot_bot",
+  },
+  {
     title: "Plate App",
     des: "Mobile App to order food.",
     img: "./pic10.png",
